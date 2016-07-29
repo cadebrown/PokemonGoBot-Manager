@@ -1,6 +1,6 @@
 # PokemonGoBot-Manager
 
-Manager for a pokemon go bot, written in python
+Manager for a pokemon go bot - https://github.com/PokemonGoF/PokemonGo-Bot - , written in python, utilizing json
 
 ## Installation/Setup
 First, run:  `./install.sh`
