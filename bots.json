@@ -1,0 +1,12 @@
+{
+  "an enabled bot": {
+    "username": "$name@gmail.com",
+    "password": "$password",
+    "enabled": "1"
+  },
+  "another bot that wont run": {
+    "username": "$othername@gmail.com",
+    "password": "$otherpassword",
+    "enabled": "0"
+  }
+}
