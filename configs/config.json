@@ -26,16 +26,18 @@
           "use_lucky_egg": false
         }
       },
-      {
+{
         "type": "RecycleItems",
         "config": {
           "item_filter": {
-            "Pokeball":       { "keep" : 100 },
+            "Pokeball":       { "keep" : 40 },
+            "Greatball":      { "keep" : 30 },
+            "Masterball":     { "keep" : 100 },
             "Potion":         { "keep" : 0 },
             "Super Potion":   { "keep" : 0 },
-            "Hyper Potion":   { "keep" : 40 },
-            "Revive":         { "keep" : 40 },
-            "Razz Berry":     { "keep" : 100 }
+            "Hyper Potion":   { "keep" : 25 },
+            "Revive":         { "keep" : 25 },
+            "Razz Berry":     { "keep" : 50 }
           }
         }
       },
