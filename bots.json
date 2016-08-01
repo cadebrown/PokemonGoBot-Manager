@@ -1,11 +1,13 @@
 {
   "an enabled bot": {
+    "auth_service": "google",
     "username": "$name@gmail.com",
     "password": "$password",
     "enabled": "1"
   },
   "another bot that wont run": {
-    "username": "$othername@gmail.com",
+    "auth_service": "ptc",
+    "username": "$othername",
     "password": "$otherpassword",
     "enabled": "0"
   }
