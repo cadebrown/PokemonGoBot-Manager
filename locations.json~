@@ -1,0 +1,26 @@
+{
+  "0. Santa Monica Pier - Great General Farming": {
+    "index": "0",
+    "name": "Santa Monica Pier",
+    "info": "Great for water types, electabuzz, pokestops, overall great for general grinding",
+    "loc": "34.008344620842834,-118.49794507026672"
+  },
+  "1. Good farming spot": {
+    "index": "2",
+    "name": "Sydney",
+    "info": "General farming",
+    "loc": "-33.866609,151.209120"
+  },
+  "2. Central Park - Snorlax Spot": {
+    "index": "3",
+    "name": "Central Park SW",
+    "info": "Snorlax spawned here",
+    "loc": "40.76976805976344,-73.979771733284"
+  },
+  "4. London": {
+    "index": "4",
+    "name": "Densest area of london",
+    "info": "Good for XP/Snorlax",
+    "loc": "51.495011293466746,-0.13200759887695312"
+  }
+}

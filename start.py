@@ -38,7 +38,8 @@ formatMsg(loc_fullmsg)
 
 #Gets command for username and password
 def getCmd(un, pw):
-    return ["python", "pokecli.py", "-cf", "configs/config.json", "-u", un, "-p", pw, "-l", loc]
+    return "until (python pokecli.py -u " + un + " -p " + pw + " -l " + loc + "); do echo 'Process crashed with exit code $?.  Respawning..' >&2; sleep 1000; done;"
+    #return "echo $PWD"
 
 
 #Collecintg PIDs
@@ -55,13 +56,13 @@ for location in loc_data:
 for bot in bot_data:
     if int(bot_data[bot]["enabled"]) != 1:
         continue
-    #We build the cmd string/array
+    #We build the cmd string/arraym with autorestart
     cmd = getCmd(bot_data[bot]["username"], bot_data[bot]["password"])
     #Print out for debugging
     print cmd
 
     #Create it from our builder
-    process = subprocess.Popen(cmd)
+    process = subprocess.Popen(cmd, shell=True)
     #Store it's pid
     all_processes.append(process.pid)
 
