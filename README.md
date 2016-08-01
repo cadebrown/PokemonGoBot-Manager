@@ -137,3 +137,10 @@ Just like the bots, you may add a location here:
 }
 ```
 And when you run start.py again, 5. KY Dratini Nest will show up
+
+
+## Updating
+
+I try to keep this as updated as possible, but if you would like a new version of the bot, simply:
+clone the main bot (https://github.com/PokemonGoF/PokemonGo-Bot) into a seperate folder.
+Replace my `pokecli.py` with the cloned one, as well as the directory `pokemongo_bot/` and `requirements.txt`. Then run `pip install -r requirements.txt`. My manager is designed to run version-neutral of the bot.
