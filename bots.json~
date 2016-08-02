@@ -3,12 +3,12 @@
     "auth_service": "google",
     "username": "$name@gmail.com",
     "password": "$password",
-    "enabled": 1
+    "enabled": "1"
   },
   "another bot that wont run": {
     "auth_service": "ptc",
     "username": "$othername",
     "password": "$otherpassword",
-    "enabled": 0
+    "enabled": "0"
   }
 }

@@ -35,13 +35,14 @@ def getCmd(un, pw, auth):
     #return "echo $PWD"
 
 def runBotN(n):
+    if bots[n]["enabled"] != 1:
+        return
     if all_processes[n] != None:
         try:
             os.kill(all_processes[n], 0)
             return
         except OSError:
-            if int(bots[n]["enabled"]) != 1:
-                return
+            return
     cmd = getCmd(bots[n]["username"], bots[n]["password"], bots[n]["auth_service"])
     print cmd
     process = subprocess.Popen(cmd.split())
