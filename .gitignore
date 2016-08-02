@@ -4,3 +4,6 @@ bots.json
 !bots.json.example
 locations.json
 !locations.json.example
+inventory-*
+location-*
+catchable-*
