@@ -25,7 +25,7 @@ loc_fullmsg = "Locations:\n\n"
 
 for location in loc_data:
     t_loc = loc_data[location]
-    loc_fullmsg = loc_fullmsg + "Index: " + t_loc["index"] + "\nName: " + t_loc["name"] + "\nLocation: " + t_loc["loc"] + "\nInfo: " + t_loc["info"] + bre
+    loc_fullmsg = loc_fullmsg + "Index: " + str(t_loc["index"]) + "\nName: " + t_loc["name"] + "\nLocation: " + t_loc["loc"] + "\nInfo: " + t_loc["info"] + bre
 
 formatMsg(loc_fullmsg)
 
