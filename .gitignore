@@ -1,0 +1,6 @@
+configs/*
+!config.json.example
+bots.json
+!bots.json.example
+locations.json
+!locations.json.example

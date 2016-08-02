@@ -49,9 +49,9 @@ def runBotN(n):
     #process = os.system(cmd)    
     all_processes[n] = process.pid
 
-loc_index = str(input("Location Index: "))
+loc_index = int(input("Location Index: "))
 for location in loc_data:
-    if int(loc_data[location]["index"]) == int(loc_index):
+    if loc_data[location]["index"] == loc_index:
         loc = loc_data[location]["loc"] 
         break
 
