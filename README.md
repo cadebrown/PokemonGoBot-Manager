@@ -19,21 +19,16 @@ You see all output from all bots in this one shell. Press enter, or ctrl c to st
 
 ### bots.json
 
-Here is the example file (`bots.json.example`):
-```
-[Bots](./bots.json.example)
-```
+The example file is `bots.json.example`
 
 Copy that to `bots.json` (remove the `.example`), and change what you would like
 
 The `enabled` tells it whether to run or not. `1` means the bot will run, `0` means it won't
 You may add as many as you'd like.
 
-### locations.json.example
-Here is the example file
-```
-[Locations](./locations.json.example)
-```
+### locations.json
+The example file is locations.json.example
+
 Copy this to `locations.json` (remove the `.example`)
 
 Just like the bots, you may add a location here.
