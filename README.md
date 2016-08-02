@@ -21,7 +21,7 @@ You see all output from all bots in this one shell. Press enter, or ctrl c to st
 
 Here is the example file (`bots.json.example`):
 ```
-[bots.json.example](bots.json.example)
+[Bots](./bots.json.example)
 ```
 
 Copy that to `bots.json` (remove the `.example`), and change what you would like
@@ -32,7 +32,7 @@ You may add as many as you'd like.
 ### locations.json.example
 Here is the example file
 ```
-[locations.json.example](locations.json.example)
+[Locations](./locations.json.example)
 ```
 Copy this to `locations.json` (remove the `.example`)
 
