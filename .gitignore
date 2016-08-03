@@ -7,4 +7,5 @@ locations.json
 inventory-*
 location-*
 catchable-*
+cells-*
 web/userdata.js
