@@ -8,4 +8,5 @@ inventory-*
 location-*
 catchable-*
 cells-*
+last-location-*
 web/userdata.js
