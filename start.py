@@ -31,7 +31,7 @@ formatMsg(loc_fullmsg)
 
 def getCmd(un, pw, auth):
     #return "until (python pokecli.py -u " + un + " -p " + pw + " -l " + loc + "); do echo 'Process crashed with exit code $?.  Respawning..' >&2; done;"
-    return "python ./pokecli.py -u " + un + " -p " + pw + " -l " + loc + " -a " + auth
+    return "python ./pokecli.py -u " + un + " -p " + pw + " -l '" + loc + "' -a " + auth
     #return "echo $PWD"
 
 def runBotN(n):
