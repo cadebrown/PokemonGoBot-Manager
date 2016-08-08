@@ -42,7 +42,7 @@ def runBotN(n):
             os.kill(all_processes[n], 0)
             return
         except OSError:
-            return
+            print str(all_processes[n]) + " Has died, respawning"
     cmd = getCmd(bots[n]["username"], bots[n]["password"], bots[n]["auth_service"])
     print cmd
     process = subprocess.Popen(cmd.split())
@@ -71,7 +71,7 @@ try:
     while True:
         for k in range(0, len(bots)):
             runBotN(k)
-        time.sleep(30)
+        time.sleep(5)
 except KeyboardInterrupt:
     print "Now killing all bots"
     for p in all_processes:
