@@ -10,5 +10,5 @@ catchable-*
 cells-*
 map-caught-*
 last-location-*
-web/userdata.js
+web/config/userdata.js
 encrypt.so
